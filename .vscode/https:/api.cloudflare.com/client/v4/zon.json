@@ -44,3 +44,9 @@ curl --request GET \
   },
   "success": true
 }
+--url https://developers.cloudflare.com/durable-objects/api/websockets/#websocket-methods
+curl --request GET \
+--url https://developers.cloudflare.com/durable-objects/api/websockets/#websocket-methods
+--header 'Websocket': accept()' \
+--header addEventListener(event, callbackFunction)
+--header https://developers.cloudflare.com/durable-objects/api/websockets/#events
