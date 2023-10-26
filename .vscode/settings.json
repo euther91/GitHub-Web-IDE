@@ -10,5 +10,9 @@
     "editor.folding": false,
     "jdk.verbose": true,
     "editor.wordWrap": "on",
-    "diffEditor.codeLens": true
+    "diffEditor.codeLens": true,
+    "python.analysis.addImport.exactMatchOnly": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true
 }
