@@ -1,6 +1,7 @@
 {
     "recommendations": [
+        "aicopilot.ai-copilot",
         "github.copilot",
-        "aicopilot.ai-copilot"
+        "github.copilot-chat"
     ]
 }
