@@ -1,0 +1,46 @@
+https://api.cloudflare.com/client/v4/zones//{}//discovery
+curl --request GET \
+  --url https://api.cloudflare.com/client/v4/zones/zone_id/api_gateway/discovery \
+  --header 'Content-Type: application/json' \
+  --header 'X-Auth-Email: '
+  https://developers.cloudflare.com/api/operations/api-shield-api-discovery-retrieve-discovered-operations-on-a-zone-as-openapi#Request
+  https://developers.cloudflare.com/api/operations/api-shield-api-discovery-retrieve-discovered-operations-on-a-zone-as-openapi#Responses
+  {
+  "errors": [],
+  "messages": [],
+  "result": {
+    "schemas": [
+      {
+        "info": {
+          "title": ,
+          "version": "1.0"
+        },
+        "openapi": "3.0.0",
+        "paths": {
+          "... Further paths ...": {},
+          "/api/v1/users/{var1}": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "path",
+                  "name": "var1",
+                  "required": true,
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "www.example.com"
+          }
+        ]
+      }
+    ],
+    "timestamp":
+  },
+  "success": true
+}
