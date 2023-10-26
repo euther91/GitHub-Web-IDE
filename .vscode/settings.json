@@ -8,5 +8,7 @@
     "editor.experimental.asyncTokenizationVerification": true,
     "editor.foldingImportsByDefault": false,
     "editor.folding": false,
-    "jdk.verbose": true
+    "jdk.verbose": true,
+    "editor.wordWrap": "on",
+    "diffEditor.codeLens": true
 }
